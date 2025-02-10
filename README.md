@@ -1,9 +1,8 @@
 # CI2024 Project Work
 
-The project has been developed in collaboration with Mattia Ottoborgo and Yuri Pettorossi.
 
 ## Introduction
-The goal of the project has been the development of a symbolic regression to extract a formula that best represents the distribution of 8 datasets. This project has been done in collaboration with Federico Fortunati and Yuri Pettorossi.
+The goal of the project has been the development of a symbolic regression to extract a formula that best represents the distribution of 8 datasets. This project has been done in collaboration with Mattia Ottoborgo and Yuri Pettorossi.
 
 ## Methodology
 In order to accomplish this task, we have implemented a genetic programming algorithm which returns a formula as a combination of different operators and constants. The formula is obtained through a series of Permutations and Crossovers. The algorithm is interrupted when a target number of generations is reached. The best candidate is obtained as the candidate with the lowest MSE. Each candidate is represented as a tree data structure. Each node can represent either an operator or a constant.
